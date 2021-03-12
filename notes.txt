@@ -1,0 +1,13 @@
+1. Java Programs:
+- Web applications
+- Mobile applications
+- Desktop applications
+- Web servers
+- Embedded systems
+
+2. Java Runtime Environment (JRE):
+- Needed to run Java applications (Java programs)
+
+3. Java Development Kit (JDK):
+- Needed to build and develop Java programs
+- Includes the JRE and other tools to create Java programs
