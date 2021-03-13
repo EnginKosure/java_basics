@@ -11,3 +11,8 @@
 3. Java Development Kit (JDK):
 - Needed to build and develop Java programs
 - Includes the JRE and other tools to create Java programs
+
+
+# Make directory as =>Test Sources Root=> green=>then new java class option is available
+
+# File > Project Structure> Project and then in Project Compiler Output => path_of_the_project_folder/out
