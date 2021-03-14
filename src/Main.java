@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
@@ -40,9 +41,9 @@ public class Main {
         System.out.println("Playing next");
 
         String question ="What is the next planet in orbit towards sun?";
-        String choiceOne="Venus";
-        String choiceTwo="Mars";
-        String choiceThree="Uranus";
+        String choiceOne="venus";
+        String choiceTwo="mars";
+        String choiceThree="uranus";
 
         String correctAnswer=choiceTwo;
 
@@ -52,7 +53,7 @@ public class Main {
 
         String userAnswer=quiz.next();
 
-        if(correctAnswer.equals(userAnswer)){
+        if(correctAnswer.equals(userAnswer.toLowerCase())){
             System.out.println("Congrats!");
         }else{
             System.out.println("Sorry, incorrect. Correct answer is "+correctAnswer );
