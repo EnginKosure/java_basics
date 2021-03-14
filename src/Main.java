@@ -55,7 +55,7 @@ public class Main {
         if(correctAnswer.equals(userAnswer)){
             System.out.println("Congrats!");
         }else{
-            System.out.println("Sorry ,wrong answer");
+            System.out.println("Sorry, incorrect. Correct answer is "+correctAnswer );
         }
     }
 }
