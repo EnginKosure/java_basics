@@ -38,6 +38,25 @@ public class Main {
             }
         }
         System.out.println("Playing next");
+
+        String question ="What is the next planet in orbit towards sun?";
+        String choiceOne="Venus";
+        String choiceTwo="Mars";
+        String choiceThree="Uranus";
+
+        String correctAnswer=choiceTwo;
+
+        System.out.println(question);
+        System.out.println("choices: A:"+ choiceOne+ " B:"+ choiceTwo + " C:"+choiceThree);
+        Scanner quiz=new Scanner(System.in);
+
+        String userAnswer=quiz.next();
+
+        if(userAnswer.equals("b")){
+            System.out.println("Congrats!");
+        }else{
+            System.out.println("Sorry ,wrong answer");
+        }
     }
 }
 
