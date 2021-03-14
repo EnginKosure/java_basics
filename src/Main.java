@@ -1,16 +1,20 @@
+import java.util.Scanner;
+
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("IntelliJ setup");
-        int studentAge=15;
-        double studentGPA=3.54;
-        char studentLastInitial='H';
-        boolean hasPerfectAttendance=true;
-        String studentName= "Someone Somebody";
-        char studentFirstInitial=studentName.charAt(0);
+        double studentGPA = 3.45;
+        String studentFirstName = "Kayla";
+        String studentLastName = "Hammon";
+        System.out.println(studentFirstName + " " +
+                studentLastName + " has a GPA of " + studentGPA);
+        System.out.println("What do you want to update it to?");
 
-        System.out.println(studentAge);
-        System.out.println(studentName);
-        System.out.println(studentFirstInitial);
+        Scanner input = new Scanner(System.in);
+        studentGPA = input.nextDouble();
 
+        System.out.println(studentFirstName + " " + studentLastName +
+                " now has a GPA of " + studentGPA);
     }
 }
+
