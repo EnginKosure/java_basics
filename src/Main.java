@@ -52,7 +52,7 @@ public class Main {
 
         String userAnswer=quiz.next();
 
-        if(userAnswer.equals("b")){
+        if(correctAnswer.equals(userAnswer)){
             System.out.println("Congrats!");
         }else{
             System.out.println("Sorry ,wrong answer");
