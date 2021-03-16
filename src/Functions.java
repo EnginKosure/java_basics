@@ -6,8 +6,7 @@ public class Functions {
     public static double calcTotalPrice(double listedMealPrice, double tipRate, double taxRate){
         double tip=tipRate*listedMealPrice;
         double tax=taxRate*listedMealPrice;
-        double result=listedMealPrice+tip+tax;
-        return result;
+        return listedMealPrice+tip+tax;
     }
 
     public static void main(String[] args) {
