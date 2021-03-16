@@ -11,9 +11,11 @@ public class Functions {
     }
 
     public static void main(String[] args) {
-        calcTotalPrice(15, .2, .08);
-        calcTotalPrice(25, .18, .08);
+        double groupTotalPrice=calcTotalPrice(100, .2, .08);
+        System.out.println(groupTotalPrice);
 
+        double individualPrice=groupTotalPrice/5;
+        System.out.println(individualPrice);
 
     }
 }
