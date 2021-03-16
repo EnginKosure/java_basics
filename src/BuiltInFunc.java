@@ -1,5 +1,9 @@
 public class BuiltInFunc {
     public static double salaryCalc(double hoursPerWeek, double amountPerHour){
+
+        if(hoursPerWeek<0){
+            return -1;
+        }
         double weeklyPaycheck=hoursPerWeek*amountPerHour;
         return weeklyPaycheck*52;
     }
@@ -8,7 +12,7 @@ public class BuiltInFunc {
         double result=Math.pow(2,5);
         System.out.println(result);
 
-        double salary=salaryCalc(40,15);
+        double salary=salaryCalc(-40,15);
         System.out.println(salary);
     }
 }
