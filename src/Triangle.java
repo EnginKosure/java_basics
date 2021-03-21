@@ -2,6 +2,7 @@ public class Triangle {
 
     //Static variable==> can be reached directly over class like Triangle.numOfSides
     static int numOfSides=3;
+//    Attributes are referring to additional information of an object. Properties are describing the characteristics of an object
 
 //    instance variables
     double base;
@@ -10,7 +11,8 @@ public class Triangle {
     double sideLenTwo;
     double sideLenThree;
 
-//    create constructor
+//    Every class contains a constructor method that can create instances
+// create constructor
     public Triangle(double base, double height, double sideLenOne, double sideLenTwo, double sideLenThree){
         this.base=base;
         this.height=height;
