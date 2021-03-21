@@ -14,7 +14,8 @@ public class Triangle {
         this.sideLenTwo=sideLenTwo;
         this.sideLenThree=sideLenThree;
     }
-
+// This is an instance method, we must call it over an instance.
+    // If it was a static method, we would call it directly over the Class (like Math.pow())
     public double findArea(){
         return this.base*this.height/2;
     }
