@@ -1,4 +1,8 @@
 public class Triangle {
+
+    //Static variable==> can be reached directly over class like Triangle.numOfSides
+    static int numOfSides=3;
+
 //    instance variables
     double base;
     double height;
@@ -14,8 +18,8 @@ public class Triangle {
         this.sideLenTwo=sideLenTwo;
         this.sideLenThree=sideLenThree;
     }
-// This is an instance method, we must call it over an instance.
-    // If it was a static method, we would call it directly over the Class (like Math.pow())
+// This is an instance method(aka non-static method), we must call it over an instance.
+    // If it was a static method(aka class method), we would call it directly over the Class (like Math.pow())
     public double findArea(){
         return this.base*this.height/2;
     }
