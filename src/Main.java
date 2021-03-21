@@ -61,16 +61,25 @@ public class Main {
 //    }
 
     public static  void  main(String[] args){
-        Triangle triangleA=new Triangle(15, 8, 15, 8, 17 );
-        Triangle triangleB=new Triangle(3,2.598, 3,3,3);
+//        Triangle triangleA=new Triangle(15, 8, 15, 8, 17 );
+//        Triangle triangleB=new Triangle(3,2.598, 3,3,3);
+//
+//        double triangleAArea=triangleA.findArea();
+//        System.out.println(triangleAArea);
+//
+//        double triangleBArea=triangleB.findArea();
+//        System.out.println(triangleBArea);
+//
+//        System.out.println(Triangle.numOfSides);
+        Student studentA=new Student("Denis", "Brown", 2024, 4.00, "CS");
+        String studentAFullName=studentA.fullName();
+        System.out.println(studentAFullName);
+        System.out.println(studentA.expGraduate);
+        studentA.incGradYear();
+        System.out.println(studentA.expGraduate);
 
-        double triangleAArea=triangleA.findArea();
-        System.out.println(triangleAArea);
 
-        double triangleBArea=triangleB.findArea();
-        System.out.println(triangleBArea);
 
-        System.out.println(Triangle.numOfSides);
 
     }
 
