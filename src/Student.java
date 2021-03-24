@@ -13,9 +13,8 @@ public class Student {
         this.major=major;
     }
 
-    public int incGradYear(){
+    public void incGradYear(){
         this.expGraduate=this.expGraduate+1;
-        return expGraduate;
     }
 
     public String fullName(){
